@@ -7,4 +7,4 @@ hidden = [".pythonlibs"]
 channel = "stable-23_05"
 
 [deployment]
-run = ["sh", "-c", "python3 main.py"]
+run = ["sh", "-c", "python3 rocv2.py"]

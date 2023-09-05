@@ -48,7 +48,8 @@ env.process(rocev2_sender(env, receiver))
 env.process(rocev2_receiver(env))
 
 # Run the simulation for a specified duration
-env.run(until=20)  # Adjust the simulation duration as needed
+env.run(until=2000)  # Adjust the simulation duration as needed
+
 """In this extended simulation:
 
     We've introduced a RoCEv2Packet class to represent RoCEv2 packets with different types (Data, Ack, Error).
